@@ -7,3 +7,22 @@
 body {
     font-family: 'Arial', sans-serif;
 }
+
+.btn {
+    display: inline-block;  /* 블록 요소로 설정하여 크기 지정 가능 */
+    width: 150px;           /* 버튼 너비를 고정 */
+    height: 50px;           /* 버튼 높이를 고정 */
+    line-height: 50px;      /* 텍스트가 버튼의 중앙에 위치하도록 */
+    text-align: center;     /* 텍스트 중앙 정렬 */
+    margin: 5px;            /* 버튼 간격 */
+    padding: 0;             /* 내부 여백 제거 */
+    background-color: #007acc; /* 버튼 배경색 */
+    color: white;           /* 텍스트 색상 */
+    text-decoration: none;  /* 링크 밑줄 제거 */
+    border-radius: 5px;     /* 버튼 모서리를 둥글게 */
+    font-size: 16px;        /* 글꼴 크기 */
+}
+
+.btn:hover {
+    background-color: #005f99; /* 마우스를 올렸을 때 버튼 색상 변경 */
+}

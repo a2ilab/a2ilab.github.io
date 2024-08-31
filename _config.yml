@@ -21,9 +21,16 @@
 title: A2I Lab
 email: minho@kmou.ac.kr
 description: "Applied Artificial Intelligence Lab - 국립한국해양대학교"
-baseurl: ""
-url: "https://a2ilab.github.io"
-theme: jekyll-theme-cayman
+baseurl: ""  # 기본적으로 빈 문자열로 설정
+url: "https://a2ilab.github.io"  # 자신의 GitHub 사용자 이름으로 대체
+
+# 테마 설정
+remote_theme: pages-themes/cayman@v0.2.0
+
+# 플러그인 설정
+plugins:
+  - jekyll-remote-theme  # 이미 플러그인 목록이 있으면 이 줄만 추가
+
 
 
 # Exclude from processing.

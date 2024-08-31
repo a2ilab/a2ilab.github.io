@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "프로젝트"
-permalink: /projects/
+permalink: /projects.html
 ---
 
 # 진행 중인 연구 프로젝트

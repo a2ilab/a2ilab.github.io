@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "연구실 소개"
-permalink: /about/
+permalink: /about.html
 ---
 
 # 연구실 소개

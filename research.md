@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "연구 분야"
-permalink: /research/
+permalink: /research.html
 ---
 
 # 연구 분야

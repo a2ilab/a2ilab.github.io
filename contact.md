@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "연락처"
-permalink: /contact/
+permalink: /contact.html
 ---
 
 # 연락처

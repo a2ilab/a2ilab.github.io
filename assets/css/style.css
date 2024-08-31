@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 여기에 사용자 정의 CSS 추가 */
+body {
+    font-family: 'Arial', sans-serif;
+}

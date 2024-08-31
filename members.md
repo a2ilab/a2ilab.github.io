@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "연구실 멤버"
-permalink: /members/
+permalink: /members.html
 ---
 
 # 연구실 멤버

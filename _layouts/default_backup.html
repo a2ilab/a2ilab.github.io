@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Cayman 테마의 스타일을 로드 -->
+    {{ content_for_head }}
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>{{ site.title }}</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">홈</a></li>
+                    <li><a href="{{ '/about.html' | relative_url }}">연구실 소개</a></li>
+                    <li><a href="{{ '/research.html' | relative_url }}">연구 분야</a></li>
+                    <li><a href="{{ '/projects.html' | relative_url }}">프로젝트</a></li>
+                    <li><a href="{{ '/members.html' | relative_url }}">연구실 멤버</a></li>
+                    <li><a href="{{ '/contact.html' | relative_url }}">연락처</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 A2I Lab. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- 테마의 스크립트를 로드 -->
+    {{ content_for_footer }}
+</body>
+</html>
